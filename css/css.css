@@ -2,7 +2,7 @@
 * @Author: Mackxin
 * @Date:   2018-04-15 15:31:48
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-04-15 18:09:52
+* @Last Modified time: 2018-04-15 22:40:38
 */
 *{
     padding: 0;
@@ -101,13 +101,11 @@ ul{
 #t-header-boxs{
     width: 100%;
     height: 121px;
-    background-color: #333;
 }
 #t-header-boxs #t-header-boxer{
     width: 1190px;
     height: 121px;
     margin: 0 auto;
-    background-color: red;
 }
 #t-header-boxs #t-header-boxer .t-logo{
     width: 190px;
@@ -125,3 +123,151 @@ ul{
     height: 100%;
 }
 
+#t-header-boxs #t-header-boxer .t-search{
+    width: 630px;
+    height: 121px;
+    position: relative;
+    font-size: 12px;
+}
+#t-header-boxs #t-header-boxer .t-search .t-search-top{
+    position: absolute;
+    top: 24px;
+    left: 85px;
+}
+#t-header-boxs #t-header-boxer .t-search .t-search-top li{
+    float: left;
+    width: 36px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+#t-header-boxs #t-header-boxer .t-search .t-search-top li:first-child{
+    background: #f40;
+}
+#t-header-boxs #t-header-boxer .t-search .t-search-top li:nth-child(2),
+#t-header-boxs #t-header-boxer .t-search .t-search-top li:nth-child(3){
+    color: #f40;
+}
+#t-header-boxs #t-header-boxer .t-search .t-search-ss .t-search-sousuo{
+    width: 630px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    border: 2px solid #F40;
+    position: absolute;
+    top: 46px;
+    left: 60px;
+    background: #fff;
+    text-indent: 10px;
+    outline:none;
+}
+#t-header-boxs #t-header-boxer .t-search .t-search-ss span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+#t-header-boxs #t-header-boxer .t-search .t-search-ss span svg{
+    width: 20px;
+    height: 20px;
+    color: #999;
+}
+#t-header-boxs #t-header-boxer .t-search .t-search-ss span svg.iconss{
+    position: absolute;
+    top: 55px;
+    left: 75px;
+}
+#t-header-boxs #t-header-boxer .t-search .t-search-ss span svg.iconxj{
+    position: absolute;
+    top: 52px;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+    color: #999;
+}
+#t-header-boxs #t-header-boxer .t-search .t-search-ss button{
+    width: 74px;
+    height: 40px;
+    background: #f40;
+    border: none;
+    border-radius: 0px 40px 40px 0px;
+    position: absolute;
+    top: 46px;
+    right: -60px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #FF4200;
+    cursor: pointer;
+}
+
+#t-header-boxs #t-header-boxer .t-search .t-search-biaoqian{
+    position: absolute;
+    left: 68px;
+    bottom: 14px;
+    width: 660px;
+}
+#t-header-boxs #t-header-boxer .t-search .t-search-biaoqian li{
+    float: left;
+}
+#t-header-boxs #t-header-boxer .t-search .t-search-biaoqian li a{
+    display: inline-block;
+    margin-right: 8px;
+}
+#t-header-boxs #t-header-boxer .t-search .t-search-biaoqian li a:hover{
+    color: #f40;
+}
+#t-header-boxs #t-header-boxer .t-search .t-search-biaoqian li:nth-child(1) a,
+#t-header-boxs #t-header-boxer .t-search .t-search-biaoqian li:nth-child(3) a,
+#t-header-boxs #t-header-boxer .t-search .t-search-biaoqian li:nth-child(6) a{
+    color: #f40;
+}
+#t-header-boxs #t-header-boxer .t-wechat{
+    width: 250px;
+    height: 121px;
+    position: relative;
+}
+#t-header-boxs #t-header-boxer .t-wechat .t-wechat-box{
+    position: absolute;
+    right: 110px;
+    bottom: 7px;
+}
+#t-header-boxs #t-header-boxer .t-wechat .t-wechat-box a{
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    line-height: 14px;
+    text-decoration: none;
+    display: block;
+    font-size: 10px;
+    color: #DDD;
+    border: 1px solid #eee;
+    float: left;
+}
+#t-header-boxs #t-header-boxer .t-wechat .t-wechat-box div{
+    width: 76px;
+    height: 90px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border: 1px solid #eee;
+    margin: 5px 0px 0px 6px;
+}
+#t-header-boxs #t-header-boxer .t-wechat .t-wechat-box div p{
+    width: 76px;
+    text-align: center;
+    color: #ff5000;
+    font-size: 12px;
+}
+#t-header-boxs #t-header-boxer .t-wechat .t-wechat-box div div{
+    width: 62px;
+    height: 62px;
+
+}
+#t-header-boxs #t-header-boxer .t-wechat .t-wechat-box div div img{
+    width: 100%;
+    height: 100%;
+}
