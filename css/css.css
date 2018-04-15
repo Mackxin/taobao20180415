@@ -1,0 +1,127 @@
+/*
+* @Author: Mackxin
+* @Date:   2018-04-15 15:31:48
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-04-15 18:09:52
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: #6c6c6c;
+}
+ul{
+    list-style: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.icon {
+   width: 0.5em; height: 0.5em;
+   // vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+#t-header{
+    width: 100%;
+    height: 35px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #eee;
+}
+#t-header #t-header-box{
+    width: 1190px;
+    height: 35px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 35px;
+}
+#t-header #t-header-box .t-header-left ul li,
+#t-header #t-header-box .t-header-right ul li{
+    float: left;
+    padding: 0 6px;
+}
+#t-header #t-header-box .t-header-left ul li svg.xiaoxi,
+#t-header #t-header-box .t-header-right ul li svg.gouwuche,
+#t-header #t-header-box .t-header-right ul li svg.daohang,
+#t-header #t-header-box .t-header-right ul li svg.shoucangjia{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    color: #FF5011;
+}
+#t-header #t-header-box .t-header-left ul li:hover svg.xiaoxi{
+    color: #FF5011;
+}
+#t-header #t-header-box .t-header-left ul li .icon,
+#t-header #t-header-box .t-header-right ul li .icon{
+    padding: 0 3px;
+}
+#t-header #t-header-box .t-header-left ul li:hover,
+#t-header #t-header-box .t-header-right ul li:hover{
+    background: #fff;
+    height: 36px;
+}
+#t-header #t-header-box .t-header-left ul li:last-child:hover,
+#t-header #t-header-box .t-header-left ul li:last-child:hover a{
+    background: #f5f5f5;
+    color: #FF5011;
+    height: 35px;
+}
+#t-header #t-header-box .t-header-right ul li:nth-child(4):hover,
+#t-header #t-header-box .t-header-right ul li:nth-child(4):hover a{
+    background: #f5f5f5;
+    color: #FF5011;
+    height: 35px;
+}
+#t-header #t-header-box .t-header-right ul li:nth-child(4) span{
+    padding-left: 10px;
+    color: #ddd;
+}
+#t-header #t-header-box .t-header-right ul li:nth-child(3) svg{
+    color: #6c6c6c;
+}
+#t-header #t-header-box .t-header-right ul li:nth-child(4):hover span{
+    color: #ddd;
+}
+#t-header #t-header-box .t-header-left ul li:nth-child(2) a:hover,
+#t-header #t-header-box .t-header-right ul li:hover a{
+    color: #FF5011;
+}
+
+#t-header-boxs{
+    width: 100%;
+    height: 121px;
+    background-color: #333;
+}
+#t-header-boxs #t-header-boxer{
+    width: 1190px;
+    height: 121px;
+    margin: 0 auto;
+    background-color: red;
+}
+#t-header-boxs #t-header-boxer .t-logo{
+    width: 190px;
+    height: 121px;
+    text-align: center;
+    line-height: 180px;
+}
+#t-header-boxs #t-header-boxer .t-logo a{
+    display: inline-block;
+    width: 143px;
+    height: 59px;
+}
+#t-header-boxs #t-header-boxer .t-logo a img{
+    width: 100%;
+    height: 100%;
+}
+
