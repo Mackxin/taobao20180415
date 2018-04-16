@@ -246,6 +246,9 @@ ul{
     color: #DDD;
     border: 1px solid #eee;
     float: left;
+    position: absolute;
+    left: -10px;
+    top: 5px;
 }
 #t-header-boxs #t-header-boxer .t-wechat .t-wechat-box div{
     width: 76px;
@@ -270,4 +273,45 @@ ul{
 #t-header-boxs #t-header-boxer .t-wechat .t-wechat-box div div img{
     width: 100%;
     height: 100%;
+}
+
+#t-nav{
+    width: 1190px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    margin: 0 auto;
+}
+#t-nav h2{
+    float: left;
+    width: 190px;
+    text-align: center;
+    font-size: 16px;
+    background: #ff5000;
+}
+#t-nav ul{
+    width: 1000px;
+    height: 30px;
+    background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    float: left;
+}
+#t-nav ul li{
+    float: left;
+}
+#t-nav ul li:nth-child(1) a,
+#t-nav ul li:nth-child(2) a,
+#t-nav ul li:nth-child(3) a{
+    display: block;
+    font-size: 16px;
+    margin: 0 3px;
+    text-align: center;
+    padding: 0 6px;
+    cursor: pointer;
+}
+#t-nav ul li a{
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    padding: 0 9.5px;
 }
