@@ -31,110 +31,109 @@ ul{
    fill: currentColor;
    overflow: hidden;
 }
-#t-header{
+.t-header{
     width: 100%;
     height: 35px;
     background: #f5f5f5;
     border-bottom: 1px solid #eee;
 }
-#t-header #t-header-box{
+.t-header .t-header-box{
     width: 1190px;
     height: 35px;
     margin: 0 auto;
     font-size: 12px;
     line-height: 35px;
 }
-#t-header #t-header-box .t-header-left ul li,
-#t-header #t-header-box .t-header-right ul li{
+.t-header .t-header-box .t-header-left ul li,
+.t-header .t-header-box .t-header-right ul li{
     float: left;
     padding: 0 6px;
 }
-#t-header #t-header-box .t-header-left ul li svg.xiaoxi,
-#t-header #t-header-box .t-header-right ul li svg.gouwuche,
-#t-header #t-header-box .t-header-right ul li svg.daohang,
-#t-header #t-header-box .t-header-right ul li svg.shoucangjia{
+.t-header .t-header-box .t-header-left ul li svg.xiaoxi,
+.t-header .t-header-box .t-header-right ul li svg.gouwuche,
+.t-header .t-header-box .t-header-right ul li svg.daohang,
+.t-header .t-header-box .t-header-right ul li svg.shoucangjia{
     display: inline-block;
     width: 12px;
     height: 12px;
     text-align: center;
     color: #FF5011;
 }
-#t-header #t-header-box .t-header-left ul li:hover svg.xiaoxi{
+.t-header .t-header-box .t-header-left ul li:hover svg.xiaoxi{
     color: #FF5011;
 }
-#t-header #t-header-box .t-header-left ul li .icon,
-#t-header #t-header-box .t-header-right ul li .icon{
+.t-header .t-header-box .t-header-left ul li .icon,
+.t-header .t-header-box .t-header-right ul li .icon{
     padding: 0 3px;
 }
-#t-header #t-header-box .t-header-left ul li:hover,
-#t-header #t-header-box .t-header-right ul li:hover{
+.t-header .t-header-box .t-header-left ul li:hover,
+.t-header .t-header-box .t-header-right ul li:hover{
     background: #fff;
     height: 36px;
 }
-#t-header #t-header-box .t-header-left ul li:last-child:hover,
-#t-header #t-header-box .t-header-left ul li:last-child:hover a{
+.t-header .t-header-box .t-header-left ul li:last-child:hover,
+.t-header .t-header-box .t-header-left ul li:last-child:hover a{
     background: #f5f5f5;
     color: #FF5011;
     height: 35px;
 }
-#t-header #t-header-box .t-header-right ul li:nth-child(4):hover,
-#t-header #t-header-box .t-header-right ul li:nth-child(4):hover a{
+.t-header .t-header-box .t-header-right ul li:nth-child(4):hover,
+.t-header .t-header-box .t-header-right ul li:nth-child(4):hover a{
     background: #f5f5f5;
     color: #FF5011;
     height: 35px;
 }
-#t-header #t-header-box .t-header-right ul li:nth-child(4) span{
+.t-header .t-header-box .t-header-right ul li:nth-child(4) span{
     padding-left: 10px;
     color: #ddd;
 }
-#t-header #t-header-box .t-header-right ul li:nth-child(3) svg{
+.t-header .t-header-box .t-header-right ul li:nth-child(3) svg{
     color: #6c6c6c;
 }
-#t-header #t-header-box .t-header-right ul li:nth-child(4):hover span{
+.t-header .t-header-box .t-header-right ul li:nth-child(4):hover span{
     color: #ddd;
 }
-#t-header #t-header-box .t-header-left ul li:nth-child(2) a:hover,
-#t-header #t-header-box .t-header-right ul li:hover a{
+.t-header .t-header-box .t-header-left ul li:nth-child(2) a:hover,
+.t-header .t-header-box .t-header-right ul li:hover a{
     color: #FF5011;
 }
 
-#t-header-boxs{
-    width: 100%;
+.t-header-boxs{.    width: 100%;
     height: 121px;
 }
-#t-header-boxs #t-header-boxer{
+.t-header-boxs .t-header-boxer{
     width: 1190px;
     height: 121px;
     margin: 0 auto;
 }
-#t-header-boxs #t-header-boxer .t-logo{
+.t-header-boxs .t-header-boxer .t-logo{
     width: 190px;
     height: 121px;
     text-align: center;
     line-height: 180px;
 }
-#t-header-boxs #t-header-boxer .t-logo a{
+.t-header-boxs .t-header-boxer .t-logo a{
     display: inline-block;
     width: 143px;
     height: 59px;
 }
-#t-header-boxs #t-header-boxer .t-logo a img{
+.t-header-boxs .t-header-boxer .t-logo a img{
     width: 100%;
     height: 100%;
 }
 
-#t-header-boxs #t-header-boxer .t-search{
+.t-header-boxs .t-header-boxer .t-search{
     width: 630px;
     height: 121px;
     position: relative;
     font-size: 12px;
 }
-#t-header-boxs #t-header-boxer .t-search .t-search-top{
+.t-header-boxs .t-header-boxer .t-search .t-search-top{
     position: absolute;
     top: 24px;
     left: 85px;
 }
-#t-header-boxs #t-header-boxer .t-search .t-search-top li{
+.t-header-boxs .t-header-boxer .t-search .t-search-top li{
     float: left;
     width: 36px;
     height: 22px;
@@ -145,14 +144,14 @@ ul{
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
 }
-#t-header-boxs #t-header-boxer .t-search .t-search-top li:first-child{
+.t-header-boxs .t-header-boxer .t-search .t-search-top li:first-child{
     background: #f40;
 }
-#t-header-boxs #t-header-boxer .t-search .t-search-top li:nth-child(2),
-#t-header-boxs #t-header-boxer .t-search .t-search-top li:nth-child(3){
+.t-header-boxs .t-header-boxer .t-search .t-search-top li:nth-child(2),
+.t-header-boxs .t-header-boxer .t-search .t-search-top li:nth-child(3){
     color: #f40;
 }
-#t-header-boxs #t-header-boxer .t-search .t-search-ss .t-search-sousuo{
+.t-header-boxs .t-header-boxer .t-search .t-search-ss .t-search-sousuo{
     width: 630px;
     height: 40px;
     box-sizing: border-box;
@@ -165,22 +164,22 @@ ul{
     text-indent: 10px;
     outline:none;
 }
-#t-header-boxs #t-header-boxer .t-search .t-search-ss span{
+.t-header-boxs .t-header-boxer .t-search .t-search-ss span{
     display: inline-block;
     width: 20px;
     height: 20px;
 }
-#t-header-boxs #t-header-boxer .t-search .t-search-ss span svg{
+.t-header-boxs .t-header-boxer .t-search .t-search-ss span svg{
     width: 20px;
     height: 20px;
     color: #999;
 }
-#t-header-boxs #t-header-boxer .t-search .t-search-ss span svg.iconss{
+.t-header-boxs .t-header-boxer .t-search .t-search-ss span svg.iconss{
     position: absolute;
     top: 55px;
     left: 75px;
 }
-#t-header-boxs #t-header-boxer .t-search .t-search-ss span svg.iconxj{
+.t-header-boxs .t-header-boxer .t-search .t-search-ss span svg.iconxj{
     position: absolute;
     top: 52px;
     right: 20px;
@@ -188,7 +187,7 @@ ul{
     height: 24px;
     color: #999;
 }
-#t-header-boxs #t-header-boxer .t-search .t-search-ss button{
+.t-header-boxs .t-header-boxer .t-search .t-search-ss button{
     width: 74px;
     height: 40px;
     background: #f40;
@@ -204,38 +203,38 @@ ul{
     cursor: pointer;
 }
 
-#t-header-boxs #t-header-boxer .t-search .t-search-biaoqian{
+.t-header-boxs .t-header-boxer .t-search .t-search-biaoqian{
     position: absolute;
     left: 68px;
     bottom: 14px;
     width: 660px;
 }
-#t-header-boxs #t-header-boxer .t-search .t-search-biaoqian li{
+.t-header-boxs .t-header-boxer .t-search .t-search-biaoqian li{
     float: left;
 }
-#t-header-boxs #t-header-boxer .t-search .t-search-biaoqian li a{
+.t-header-boxs .t-header-boxer .t-search .t-search-biaoqian li a{
     display: inline-block;
     margin-right: 8px;
 }
-#t-header-boxs #t-header-boxer .t-search .t-search-biaoqian li a:hover{
+.t-header-boxs .t-header-boxer .t-search .t-search-biaoqian li a:hover{
     color: #f40;
 }
-#t-header-boxs #t-header-boxer .t-search .t-search-biaoqian li:nth-child(1) a,
-#t-header-boxs #t-header-boxer .t-search .t-search-biaoqian li:nth-child(3) a,
-#t-header-boxs #t-header-boxer .t-search .t-search-biaoqian li:nth-child(6) a{
+.t-header-boxs .t-header-boxer .t-search .t-search-biaoqian li:nth-child(1) a,
+.t-header-boxs .t-header-boxer .t-search .t-search-biaoqian li:nth-child(3) a,
+.t-header-boxs .t-header-boxer .t-search .t-search-biaoqian li:nth-child(6) a{
     color: #f40;
 }
-#t-header-boxs #t-header-boxer .t-wechat{
+.t-header-boxs .t-header-boxer .t-wechat{
     width: 250px;
     height: 121px;
     position: relative;
 }
-#t-header-boxs #t-header-boxer .t-wechat .t-wechat-box{
+.t-header-boxs .t-header-boxer .t-wechat .t-wechat-box{
     position: absolute;
     right: 110px;
     bottom: 7px;
 }
-#t-header-boxs #t-header-boxer .t-wechat .t-wechat-box a{
+.t-header-boxs .t-header-boxer .t-wechat .t-wechat-box a{
     width: 14px;
     height: 14px;
     text-align: center;
@@ -250,7 +249,7 @@ ul{
     left: -10px;
     top: 5px;
 }
-#t-header-boxs #t-header-boxer .t-wechat .t-wechat-box div{
+.t-header-boxs .t-header-boxer .t-wechat .t-wechat-box div{
     width: 76px;
     height: 90px;
     box-sizing: border-box;
@@ -259,48 +258,49 @@ ul{
     border: 1px solid #eee;
     margin: 5px 0px 0px 6px;
 }
-#t-header-boxs #t-header-boxer .t-wechat .t-wechat-box div p{
+.t-header-boxs .t-header-boxer .t-wechat .t-wechat-box div p{
     width: 76px;
     text-align: center;
     color: #ff5000;
     font-size: 12px;
 }
-#t-header-boxs #t-header-boxer .t-wechat .t-wechat-box div div{
+.t-header-boxs .t-header-boxer .t-wechat .t-wechat-box div div{
     width: 62px;
     height: 62px;
 
 }
-#t-header-boxs #t-header-boxer .t-wechat .t-wechat-box div div img{
+.t-header-boxs .t-header-boxer .t-wechat .t-wechat-box div div img{
     width: 100%;
     height: 100%;
 }
 
-#t-nav{
+.t-nav{
     width: 1190px;
     height: 30px;
     line-height: 30px;
     color: #fff;
     margin: 0 auto;
 }
-#t-nav h2{
+.t-nav h2{
     float: left;
     width: 190px;
     text-align: center;
     font-size: 16px;
     background: #ff5000;
 }
-#t-nav ul{
+.t-nav ul{
     width: 1000px;
     height: 30px;
     background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
     float: left;
+    position: relative;
 }
-#t-nav ul li{
+.t-nav ul li{
     float: left;
 }
-#t-nav ul li:nth-child(1) a,
-#t-nav ul li:nth-child(2) a,
-#t-nav ul li:nth-child(3) a{
+.t-nav ul li:nth-child(1) a,
+.t-nav ul li:nth-child(2) a,
+.t-nav ul li:nth-child(3) a{
     display: block;
     font-size: 16px;
     margin: 0 3px;
@@ -308,10 +308,18 @@ ul{
     padding: 0 6px;
     cursor: pointer;
 }
-#t-nav ul li a{
+.t-nav ul li a{
     display: block;
     font-size: 15px;
     font-weight: 700;
     color: #fff;
     padding: 0 9.5px;
+}
+.t-nav ul li:hover{
+    color: #ff5000;
+    /*top: -19px;*/
+    /*position: absolute;*/
+    /*left: 50px;*/
+    font-size: 12px;
+    background: red;
 }
