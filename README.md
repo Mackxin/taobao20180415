@@ -21,6 +21,7 @@ ssh -T git@github.com 					测试SSH key是否设置成功
 ssh-keygen -t rsa -C "你的邮箱" 		生成密匙
 git config user.name 					查看你配置的用户名
 git config 指定的属性名					查看你相对应的属性的值，然后返回给你
+git config --global core.quotepath false   解决git提交中文文件乱码不能提交的问题
 
 ```
 
@@ -35,6 +36,7 @@ git config --list 				获取git的配置信息
 ## 提交跟历史
 ```
 git log 						查看提交的历史
+git log --oneline				在一行显示提交的历史
 git log -p 指定的文件名			查看指定文件的提交历史
 git blame 指定的文件名			以列表的方式查看指定文件的提交历史
 git add 文件名  				提交指定文件到暂存区
