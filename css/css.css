@@ -11,6 +11,7 @@
 html,body{
     width: 100%;
     height: 100%;
+    background-color: #f4f4f4;
 }
 a{
     text-decoration: none;
@@ -370,7 +371,9 @@ ul{
     width: 890px;
     height: 100px;
     margin: 5px;
-    background: yellow;
+    margin-left: 0px;;
+    position: relative;
+    background-color: #fff;
 }
 
 .t-con .t-con-right{
@@ -387,23 +390,22 @@ ul{
 .t-con .t-con-right .t-con-r-jubao{
     width: 290px;
     height: 26px;
-    background: orange;
+    position: relative;
 }
 .t-con .t-con-right .t-con-r-anquan{
     width: 290px;
     height: 108px;
-    background: green;
+    background: #fff;
     margin-top: 10px;
+    position: relative;
 }
 .t-con .t-con-right .t-con-r-tubiao{
     width: 290px;
-    height: 232px;
-    background: black;
+    height: 217px;
 }
 .t-con .t-con-right .t-con-r-app{
     width: 290px;
     height: 111px;
-    background: #888;
 }
 
 
@@ -490,6 +492,66 @@ ul{
 .t-con .t-con-left .t-con-l-t-center .t-con-slide2 .zhanwei img{
     float: left;
 }
+.t-con .t-con-left .t-con-left-bottom img.toutiao{
+    display: inline-block;
+    width: 129px;
+    height: 26px;
+    position: absolute;
+    top: 23px;
+    left: 20px;
+
+}
+.t-con .t-con-left .t-con-left-bottom p{
+    line-height: 24px;
+    height: 24px;
+    color: #999;
+    font-weight: 400;
+    position: absolute;
+    top: 52px;
+    left: 25px;
+    font-size: 12px;
+}
+.t-con .t-con-left .t-con-left-bottom div{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 195px;
+}
+.t-con .t-con-left .t-con-left-bottom div img{
+    margin-top: 10px;
+}
+.t-con .t-con-left .t-con-left-bottom div a{
+    position: absolute;
+    top: 15px;
+    left: 132px;
+}
+.t-con .t-con-left .t-con-left-bottom div a:hover{
+    color: #ff5000;
+}
+.t-con .t-con-left .t-con-left-bottom div p{
+    position: absolute;
+    top: 42px;
+    left: 132px;
+    color: #999;
+    height: 36px;
+    overflow: hidden;
+    line-height: 18px;
+    font-size: 14px;
+}
+.t-con .t-con-left .t-con-left-bottom>a{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    top: 14px;
+    right: 16px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.t-con .t-con-left .t-con-left-bottom>a:hover{
+    color: #ff5000;
+}  
 
 /* 内容右侧开始 */
 .t-con .t-con-right{
@@ -575,5 +637,152 @@ ul{
 }
 .t-con .t-con-right .t-con-r-jubao a span{
     margin-left: 32px;
+}
+
+.t-con .t-con-right .t-con-r-anquan ul li.li-active{
+    border-bottom: 2px solid #F40;
+}
+.t-con .t-con-right .t-con-r-anquan ul li{
+    float: left;
+    line-height: 20px;
+    width: 32px;
+    text-align: center;
+    margin: 5px 11px;
+    padding: 2px;
+}
+
+.t-con .t-con-right .t-con-r-anquan ul li a{
+    color: #3c3c3c;
+    font-weight: 700;
+    font-size: 14px;
+}
+.t-con .t-con-right .t-con-r-anquan p{
+    line-height: 25px;
+    height: 25px;
+    font-size: 12px;
+    color: #ff5000;
+    text-align: left;
+    position: absolute;
+    top: 36px;
+    left: 10px;
+}
+.t-con .t-con-right .t-con-r-anquan div{
+    width: 290px;
+    height: 25px;
+    position: absolute;
+    top: 62px;
+    left: 10px;
+}
+.t-con .t-con-right .t-con-r-anquan div a{
+    font-size: 12px;
+    margin-right: 13px;
+}
+.t-con .t-con-right .t-con-r-anquan div a:hover{
+    color: #ff5000;
+}
+
+.t-con .t-con-right .t-con-r-tubiao ul li{
+    width: 70px;
+    height: 64px;
+    border: 1px solid #f4f4f4;
+    float: left;
+    position: relative;
+    background-color: #fff;
+}
+.t-con .t-con-right .t-con-r-tubiao ul li:hover a{
+    color: #ff5000;
+}
+.t-con .t-con-right .t-con-r-tubiao ul li a{
+    width: 64px;
+    padding-top: 1px;
+    text-align: center;
+    display: block;
+    color: #3c3c3c;
+    font-size: 12px;
+    position: absolute;
+    top: 40px;
+    left: 3px;;
+}
+.t-con .t-con-right .t-con-r-tubiao ul li span{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 11px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1px;
+    left: 22px;;
+}
+.t-con .t-con-right .t-con-r-tubiao ul li:nth-child(1) span{
+    background: url("../img/jingling.png") 0px 0px no-repeat;
+}
+.t-con .t-con-right .t-con-r-tubiao ul li:nth-child(2) span{
+    background: url("../img/jingling.png") 0px -88px no-repeat;
+}
+.t-con .t-con-right .t-con-r-tubiao ul li:nth-child(3) span{
+    background: url("../img/jingling.png") 0px -44px no-repeat;
+}
+.t-con .t-con-right .t-con-r-tubiao ul li:nth-child(4) span{
+    background: url("../img/jingling.png") 0px -132px no-repeat;
+}
+.t-con .t-con-right .t-con-r-tubiao ul li:nth-child(5) span{
+    background: url("../img/jingling.png") 0px -174px no-repeat;
+}
+.t-con .t-con-right .t-con-r-tubiao ul li:nth-child(6) span{
+    background: url("../img/jingling.png") 0px -220px no-repeat;
+}
+.t-con .t-con-right .t-con-r-tubiao ul li:nth-child(7) span{
+    background: url("../img/jingling.png") 0px -264px no-repeat;
+}
+.t-con .t-con-right .t-con-r-tubiao ul li:nth-child(8) span{
+    background: url("../img/jingling.png") 0px -308px no-repeat;
+}
+.t-con .t-con-right .t-con-r-tubiao ul li:nth-child(9) span{
+    background: url("../img/jingling.png") 0px -352px no-repeat;
+}
+.t-con .t-con-right .t-con-r-tubiao ul li:nth-child(10) span{
+    background: url("../img/jingling.png") 0px -396px no-repeat;
+}
+.t-con .t-con-right .t-con-r-tubiao ul li:nth-child(11) span{
+    background: url("../img/jingling.png") 0px -440px no-repeat;
+}
+.t-con .t-con-right .t-con-r-tubiao ul li:nth-child(12) span{
+    background: url("../img/jingling.png") 0px -484px no-repeat;
+}
+
+.t-con .t-con-right .t-con-r-app .ali{
+    width: 290px;
+    height: 30px;
+}
+.t-con .t-con-right .t-con-r-app .ali h3{
+    float: left;
+    font-size: 14px;
+    padding-left: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+.t-con .t-con-right .t-con-r-app .ali .gengduoing{
+    float: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.t-con .t-con-right .t-con-r-app ul{
+    padding-left: 20px;
+}
+.t-con .t-con-right .t-con-r-app ul li{
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-right: 22px;
+    margin-bottom: 8px;
+}
+.t-con .t-con-right .t-con-r-app ul li a{
+    width: 32px;
+    height: 32px;
+}
+.t-con .t-con-right .t-con-r-app ul li a img{
+    width: 100%;
 }
 
